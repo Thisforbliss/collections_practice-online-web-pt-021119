@@ -50,6 +50,9 @@ end
   
 def add_s(array)
   array.collect.with_index do |value, index|
+    if index == 1
+      value
+    else
     value + "s" 
  
   #binding.pry
