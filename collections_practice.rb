@@ -52,7 +52,7 @@ def add_s(array)
   array.collect.with_index do |value, index|
     value + "s" 
  
-  binding.pry
+  #binding.pry
   end
 end
   
