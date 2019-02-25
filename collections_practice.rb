@@ -49,7 +49,7 @@ def sum_array(array)
 end
   
 def add_s(array)
-  array.collect.with_index do |value, index|
+  array.collect.with_index(0,2,3) do |value, index|
     value + "s" 
  
   #binding.pry
